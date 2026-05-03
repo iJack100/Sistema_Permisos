@@ -94,40 +94,40 @@ TAREA_POO_VERA/
 ## Vista previa
 
 ### Menú principal
-![Menú principal](docs/img/menu_principal.png)
+![Menú principal](PRACT_PERMISOS/docs/img/menu_principal.png)
 
 ### Menús del sistema
-![Menú registrar](docs/img/menu_registrar.png)
-![Menú consultar](docs/img/menu_consultar.png)
-![Menú buscar](docs/img/menu_buscar.png)
-![Menú eliminar](docs/img/menu_eliminar.png)
-![Menú actualizar](docs/img/menu_actualizar.png)
+![Menú registrar](PRACT_PERMISOS/docs/img/menu_registrar.png)
+![Menú consultar](PRACT_PERMISOS/docs/img/menu_consultar.png)
+![Menú buscar](PRACT_PERMISOS/docs/img/menu_buscar.png)
+![Menú eliminar](PRACT_PERMISOS/docs/img/menu_eliminar.png)
+![Menú actualizar](PRACT_PERMISOS/docs/img/menu_actualizar.png)
 
 ### Empleados
-![Registro de empleado](docs/img/registro_empleado.png)
-![Consultar empleados](docs/img/consultar_empleados.png)
-![Buscar empleado](docs/img/buscar_empleado.png)
-![Eliminar empleado](docs/img/eliminar_empleado.png)
-![Actualizar empleado](docs/img/actualizar_empleado.png)
+![Registro de empleado](PRACT_PERMISOS/docs/img/registro_empleado.png)
+![Consultar empleados](PRACT_PERMISOS/docs/img/consultar_empleados.png)
+![Buscar empleado](PRACT_PERMISOS/docs/img/buscar_empleado.png)
+![Eliminar empleado](PRACT_PERMISOS/docs/img/eliminar_empleado.png)
+![Actualizar empleado](PRACT_PERMISOS/docs/img/actualizar_empleado.png)
 
 ### Tipos de permiso
-![Registro de tipo de permiso](docs/img/registro_tipo_permiso.png)
-![Consultar tipos de permiso](docs/img/consultar_tipo_permiso.png)
-![Buscar tipo de permiso](docs/img/buscar_tipo_permiso.png)
-![Actualizar tipo de permiso](docs/img/actualizar_tipo_permiso.png)
+![Registro de tipo de permiso](PRACT_PERMISOS/docs/img/registro_tipo_permiso.png)
+![Consultar tipos de permiso](PRACT_PERMISOS/docs/img/consultar_tipo_permiso.png)
+![Buscar tipo de permiso](PRACT_PERMISOS/docs/img/buscar_tipo_permiso.png)
+![Actualizar tipo de permiso](PRACT_PERMISOS/docs/img/actualizar_tipo_permiso.png)
 
 ### Permisos
-![Registro de permiso](docs/img/registro_permiso.png)
-![Consultar permisos](docs/img/consultar_permisos.png)
-![Buscar permiso](docs/img/buscar_permiso.png)
-![Actualizar permiso](docs/img/actualizar_permiso.png)
+![Registro de permiso](PRACT_PERMISOS/docs/img/registro_permiso.png)
+![Consultar permisos](PRACT_PERMISOS/docs/img/consultar_permisos.png)
+![Buscar permiso](PRACT_PERMISOS/docs/img/buscar_permiso.png)
+![Actualizar permiso](PRACT_PERMISOS/docs/img/actualizar_permiso.png)
 
 ### Estadísticas y resumen
-![Estadísticas de permisos](docs/img/estadisticas_permisos.png)
-![Resumen general](docs/img/resumen_general.png)
+![Estadísticas de permisos](PRACT_PERMISOS/docs/img/estadisticas_permisos.png)
+![Resumen general](PRACT_PERMISOS/docs/img/resumen_general.png)
 
 ### Despedida
-![Despedida](docs/img/despedida.png)
+![Despedida](PRACT_PERMISOS/docs/img/despedida.png)
 
 ---
 
