@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "nombre": "jose",
+        "cedula": "0927268516",
+        "sueldo": 400.0,
+        "valor_hora": 1.67
+    }
+]
