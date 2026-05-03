@@ -14,9 +14,9 @@ Aplicación de consola desarrollada en **Python puro** (sin frameworks ni librer
 
 | Campo | Detalle |
 |---|---|
-| **Materia** | Programación Orientada a Objetos |
-| **Docente** | Ing. Vera |
-| **Fecha** | 2025 |
+| **Materia** | Programación Orientada a Objetos |+
+| **Docente** | Ing. Daniel Vera |
+| **Fecha** | 2026 |
 
 ---
 
