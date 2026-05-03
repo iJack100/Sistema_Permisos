@@ -1,12 +1,7 @@
 [
     {
         "id": 1,
-        "descripcion": "hablar",
-        "remunerado": "S"
-    },
-    {
-        "id": 2,
-        "descripcion": "hola",
-        "remunerado": "S"
+        "descripcion": "Enfermedad",
+        "remunerado": "N"
     }
 ]

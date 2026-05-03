@@ -1,44 +1,30 @@
 # Sistema de Gestión de Permisos del Personal
 
-Aplicación de consola desarrollada en **Python puro** (sin frameworks) que gestiona el registro de empleados, tipos de permisos y solicitudes de permisos laborales, con cálculo automático de descuentos y persistencia en JSON.
+Aplicación de consola desarrollada en **Python puro** (sin frameworks ni librerías externas) que gestiona el registro de empleados, tipos de permisos y solicitudes de permisos laborales, con cálculo automático de descuentos y persistencia en archivos JSON.
 
 ---
 
-## Estructura del proyecto
+## Autores
 
-```
-PRACT_PERMISOS/
-│
-├── main.py                        # Punto de entrada
-│
-├── core/                          # Núcleo del sistema
-│   ├── interfaces.py              # Clase abstracta ICrud
-│   ├── mixins.py                  # CalculosMixin (validaciones y cálculos)
-│   ├── decoradores.py             # decorador_interfaz, manejar_errores
-│   └── json_manager.py            # Lectura/escritura de archivos JSON
-│
-├── models/                        # Entidades del dominio
-│   ├── empleado.py
-│   ├── tipo_permiso.py
-│   └── permiso.py
-│
-├── controllers/                   # Lógica CRUD por entidad
-│   ├── empleado_controller.py
-│   ├── tipo_permiso_controller.py
-│   ├── permiso_controller.py      # Estadísticas con HOF
-│   └── stats_controller.py
-│
-├── views/                         # Interfaz de usuario (consola)
-│   └── menu_principal.py
-│
-├── data/                          # Persistencia JSON
-│   ├── empleados.json
-│   ├── tipos_permisos.json
-│   └── permisos.json
-│
-└── docs/
-    └── architecture.excalidraw    # Diagrama de arquitectura (opcional)
-```
+- Jhoan Ariel Cevallos Villavicencio
+- Jean Pierre Jiménez Bajaña
+- José Antonio Torres Torres
+- Jhonatan Gabriel Castro Belfor
+- Elian Wladimir Galeas Barén
+
+| Campo | Detalle |
+|---|---|
+| **Materia** | Programación Orientada a Objetos |
+| **Docente** | Ing. Vera |
+| **Fecha** | 2025 |
+
+---
+
+## Requisitos
+
+- Python **3.10 o superior**
+- No requiere instalar librerías externas
+- Compatible con Windows, Mac y Linux
 
 ---
 
@@ -51,24 +37,144 @@ python main.py
 
 ---
 
+## Estructura del proyecto
+
+```
+TAREA_POO_VERA/
+│
+├── main.py                        # Punto de entrada del programa
+│
+├── core/                          # Núcleo del sistema
+│   ├── interfaces.py              # Clase abstracta ICrud (contrato CRUD)
+│   ├── mixins.py                  # CalculosMixin (validaciones y cálculos)
+│   ├── decoradores.py             # Color, Pantalla, decorador_interfaz, manejar_errores, validar_cedula
+│   └── json_manager.py            # Lectura y escritura de archivos JSON
+│
+├── models/                        # Entidades del dominio
+│   ├── empleado.py                # Clase Empleado
+│   ├── tipo_permiso.py            # Clase TipoPermiso
+│   └── permiso.py                 # Clase Permiso
+│
+├── controllers/                   # Lógica CRUD por entidad
+│   ├── empleado_controller.py     # CRUD de empleados + validación de cédula
+│   ├── tipo_permiso_controller.py # CRUD de tipos de permiso
+│   ├── permiso_controller.py      # CRUD de permisos + estadísticas con HOF
+│   └── stats_controller.py        # Estadísticas generales del sistema
+│
+├── views/                         # Interfaz de usuario en consola
+│   └── menu_principal.py          # Menú principal de navegación
+│
+├── data/                          # Persistencia en archivos JSON
+│   ├── empleados.json
+│   ├── tipos_permisos.json
+│   └── permisos.json
+│
+└── docs/
+    ├── diagrama_de_clases.excalidraw
+    └── diagrama_de_procesos.excalidraw
+```
+
+---
+
+## Funcionalidades
+
+- ✅ CRUD completo de Empleados
+- ✅ CRUD completo de Tipos de Permiso
+- ✅ CRUD completo de Permisos
+- ✅ Validación de cédula ecuatoriana (algoritmo Módulo 10)
+- ✅ Cálculo automático de valor hora y descuentos
+- ✅ Estadísticas de permisos (remunerados, no remunerados, totales)
+- ✅ Eliminación en cascada de permisos al eliminar empleado o tipo
+- ✅ Persistencia automática en archivos JSON
+- ✅ Interfaz de consola con colores ANSI
+- ✅ Manejo de errores sin cortar la ejecución del programa
+
+---
+
+## Vista previa
+
+### Menú principal
+![Menú principal](docs/img/menu_principal.png)
+
+### Menús del sistema
+![Menú registrar](docs/img/menu_registrar.png)
+![Menú consultar](docs/img/menu_consultar.png)
+![Menú buscar](docs/img/menu_buscar.png)
+![Menú eliminar](docs/img/menu_eliminar.png)
+![Menú actualizar](docs/img/menu_actualizar.png)
+
+### Empleados
+![Registro de empleado](docs/img/registro_empleado.png)
+![Consultar empleados](docs/img/consultar_empleados.png)
+![Buscar empleado](docs/img/buscar_empleado.png)
+![Eliminar empleado](docs/img/eliminar_empleado.png)
+![Actualizar empleado](docs/img/actualizar_empleado.png)
+
+### Tipos de permiso
+![Registro de tipo de permiso](docs/img/registro_tipo_permiso.png)
+![Consultar tipos de permiso](docs/img/consultar_tipo_permiso.png)
+![Buscar tipo de permiso](docs/img/buscar_tipo_permiso.png)
+![Actualizar tipo de permiso](docs/img/actualizar_tipo_permiso.png)
+
+### Permisos
+![Registro de permiso](docs/img/registro_permiso.png)
+![Consultar permisos](docs/img/consultar_permisos.png)
+![Buscar permiso](docs/img/buscar_permiso.png)
+![Actualizar permiso](docs/img/actualizar_permiso.png)
+
+### Estadísticas y resumen
+![Estadísticas de permisos](docs/img/estadisticas_permisos.png)
+![Resumen general](docs/img/resumen_general.png)
+
+### Despedida
+![Despedida](docs/img/despedida.png)
+
+---
+
 ## Conceptos aplicados
 
-| Concepto | Archivo(s) |
-|---|---|
-| Clases abstractas / Interfaces | `core/interfaces.py` |
-| Mixins | `core/mixins.py` |
-| Decoradores | `core/decoradores.py` |
-| Funciones de orden superior (map, filter, reduce) | `controllers/permiso_controller.py`, `controllers/stats_controller.py` |
-| Persistencia JSON | `core/json_manager.py` |
-| POO (herencia múltiple) | Todos los controllers |
+| Concepto | Descripción | Archivo(s) |
+|---|---|---|
+| **Clases abstractas** | `ICrud` define el contrato CRUD obligatorio | `core/interfaces.py` |
+| **Mixins** | `CalculosMixin` comparte validaciones entre controllers | `core/mixins.py` |
+| **Decoradores** | Manejan errores, validan cédula y muestran encabezados | `core/decoradores.py` |
+| **Herencia múltiple** | Todos los controllers heredan `ICrud` y `CalculosMixin` | `controllers/` |
+| **HOF** | `map`, `filter`, `reduce` para estadísticas | `controllers/permiso_controller.py` |
+| **Persistencia JSON** | Serialización con `to_dict` y `from_dict` | `core/json_manager.py` |
+| **Expresiones regulares** | Validación de fechas y nombres | `core/mixins.py` |
 
 ---
 
 ## Reglas de negocio
 
-- El **valor hora** se calcula como `sueldo / 240`.
-- Si el tipo de permiso es **remunerado (S)**, el descuento es `$0`.
-- Si el tipo es **no remunerado (N)**:
-  - Tipo **D** (días): `tiempo × 8 × valor_hora`
-  - Tipo **H** (horas): `tiempo × valor_hora`
-- Al eliminar un empleado o tipo de permiso, se eliminan en cascada los permisos vinculados.
+### Cálculo de valor hora
+```
+valor_hora = sueldo / 240
+```
+> 240 = 8 horas × 30 días laborables al mes
+
+### Cálculo de descuento por permiso
+| Tipo permiso | Tipo | Fórmula |
+|---|---|---|
+| Remunerado (S) | D o H | `$0.00` (sin descuento) |
+| No remunerado (N) | D (días) | `tiempo × 8 × valor_hora` |
+| No remunerado (N) | H (horas) | `tiempo × valor_hora` |
+
+### Eliminación en cascada
+- Al eliminar un **empleado** → se eliminan todos sus permisos
+- Al eliminar un **tipo de permiso** → se eliminan todos los permisos de ese tipo
+
+### Validación de cédula ecuatoriana
+1. Debe tener exactamente **10 dígitos numéricos**
+2. Los 2 primeros dígitos representan la **provincia** (01-24)
+3. El último dígito es verificado con el **algoritmo Módulo 10**
+
+---
+
+## Decisiones de diseño
+
+- Se usó **JSON** en lugar de base de datos para mantener el proyecto sin dependencias externas y facilitar la revisión de datos.
+- Los **decoradores** manejan errores y muestran encabezados para mantener los controllers limpios y enfocados en la lógica de negocio.
+- El patrón **Mixin** evita duplicar validaciones en cada controller, siguiendo el principio DRY (Don't Repeat Yourself).
+- La **separación de responsabilidades** mantiene cada clase con una única función: models almacenan datos, controllers manejan lógica, views manejan la interfaz.
+- Los controllers reciben otros controllers como **parámetros** en lugar de crearlos internamente, facilitando la reutilización y evitando dependencias circulares.

@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "nombre": "jose",
+        "nombre": "Jose Torres",
         "cedula": "0927268516",
-        "sueldo": 400.0,
-        "valor_hora": 1.67
+        "sueldo": 500.0,
+        "valor_hora": 2.08
     }
 ]
