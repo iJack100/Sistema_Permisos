@@ -116,61 +116,41 @@ PRACT_PERMISOS/
 ---
 
 ## 🖥️ Vista previa
-
 ### Menú principal
-![Menú principal](TAREA_POO_VERA/docs/img/menu_principal.png)
-
+![Menú principal](PRACT_PERMISOS/docs/img/menu_principal.png)
 ### Menús del sistema
-
 | Registrar | Consultar |
 |-----------|-----------|
-| ![Menú registrar](TAREA_POO_VERA/docs/img/menu_registrar.png) | ![Menú consultar](TAREA_POO_VERA/docs/img/menu_consultar.png) |
-
+| ![Menú registrar](PRACT_PERMISOS/docs/img/menu_registrar.png) | ![Menú consultar](PRACT_PERMISOS/docs/img/menu_consultar.png) |
 | Buscar | Eliminar | Actualizar |
 |--------|----------|------------|
-| ![Menú buscar](TAREA_POO_VERA/docs/img/menu_buscar.png) | ![Menú eliminar](TAREA_POO_VERA/docs/img/menu_eliminar.png) | ![Menú actualizar](TAREA_POO_VERA/docs/img/menu_actualizar.png) |
-
+| ![Menú buscar](PRACT_PERMISOS/docs/img/menu_buscar.png) | ![Menú eliminar](PRACT_PERMISOS/docs/img/menu_eliminar.png) | ![Menú actualizar](PRACT_PERMISOS/docs/img/menu_actualizar.png) |
 ---
-
 ### 👤 Empleados
-
 | Registro | Consultar | Buscar |
 |----------|-----------|--------|
-| ![Registro empleado](TAREA_POO_VERA/docs/img/registro_empleado.png) | ![Consultar empleados](TAREA_POO_VERA/docs/img/consultar_empleados.png) | ![Buscar empleado](TAREA_POO_VERA/docs/img/buscar_empleado.png) |
-
+| ![Registro empleado](PRACT_PERMISOS/docs/img/registro_empleado.png) | ![Consultar empleados](PRACT_PERMISOS/docs/img/consultar_empleados.png) | ![Buscar empleado](PRACT_PERMISOS/docs/img/buscar_empleado.png) |
 | Eliminar | Actualizar |
 |----------|------------|
-| ![Eliminar empleado](TAREA_POO_VERA/docs/img/eliminar_empleado.png) | ![Actualizar empleado](TAREA_POO_VERA/docs/img/actualizar_empleado.png) |
-
+| ![Eliminar empleado](PRACT_PERMISOS/docs/img/eliminar_empleado.png) | ![Actualizar empleado](PRACT_PERMISOS/docs/img/actualizar_empleado.png) |
 ---
-
 ### 🏷️ Tipos de permiso
-
 | Registro | Consultar | Buscar | Actualizar |
 |----------|-----------|--------|------------|
-| ![Registro tipo permiso](TAREA_POO_VERA/docs/img/registro_tipo_permiso.png) | ![Consultar tipos](TAREA_POO_VERA/docs/img/consultar_tipo_permiso.png) | ![Buscar tipo](TAREA_POO_VERA/docs/img/buscar_tipo_permiso.png) | ![Actualizar tipo](TAREA_POO_VERA/docs/img/actualizar_tipo_permiso.png) |
-
+| ![Registro tipo permiso](PRACT_PERMISOS/docs/img/registro_tipo_permiso.png) | ![Consultar tipos](PRACT_PERMISOS/docs/img/consultar_tipo_permiso.png) | ![Buscar tipo](PRACT_PERMISOS/docs/img/buscar_tipo_permiso.png) | ![Actualizar tipo](PRACT_PERMISOS/docs/img/actualizar_tipo_permiso.png) |
 ---
-
 ### 📄 Permisos
-
 | Registro | Consultar | Buscar | Actualizar |
 |----------|-----------|--------|------------|
-| ![Registro permiso](TAREA_POO_VERA/docs/img/registro_permiso.png) | ![Consultar permisos](TAREA_POO_VERA/docs/img/consultar_permisos.png) | ![Buscar permiso](TAREA_POO_VERA/docs/img/buscar_permiso.png) | ![Actualizar permiso](TAREA_POO_VERA/docs/img/actualizar_permiso.png) |
-
+| ![Registro permiso](PRACT_PERMISOS/docs/img/registro_permiso.png) | ![Consultar permisos](PRACT_PERMISOS/docs/img/consultar_permisos.png) | ![Buscar permiso](PRACT_PERMISOS/docs/img/buscar_permiso.png) | ![Actualizar permiso](PRACT_PERMISOS/docs/img/actualizar_permiso.png) |
 ---
-
 ### 📊 Estadísticas y resumen
-
 | Estadísticas de permisos | Resumen general |
 |--------------------------|-----------------|
-| ![Estadísticas](TAREA_POO_VERA/docs/img/estadisticas_permisos.png) | ![Resumen general](TAREA_POO_VERA/docs/img/resumen_general.png) |
-
+| ![Estadísticas](PRACT_PERMISOS/docs/img/estadisticas_permisos.png) | ![Resumen general](PRACT_PERMISOS/docs/img/resumen_general.png) |
 ---
-
 ### 👋 Despedida
-![Despedida](TAREA_POO_VERA/docs/img/despedida.png)
-
+![Despedida](PRACT_PERMISOS/docs/img/despedida.png)
 ---
 
 ## 🧠 Conceptos POO aplicados
