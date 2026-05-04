@@ -204,57 +204,6 @@ valor_hora = sueldo / 240
 
 ---
 
-## 🤖 Evidencia de uso de IA — Prompts utilizados
-
-Este proyecto fue desarrollado con asistencia de **Claude (Anthropic)** como herramienta de apoyo académico. A continuación se detallan las sesiones utilizadas y su propósito:
-
----
-
-### 🔵 Sesión 1 — Desarrollo del proyecto
-🔗 [https://claude.ai/share/4d2a85fe-6c7a-4b92-b8c1-91fb6067659c](https://claude.ai/share/4d2a85fe-6c7a-4b92-b8c1-91fb6067659c)
-
-Se utilizó para el diseño e implementación del sistema completo:
-- Diseño de la arquitectura por capas (MVC)
-- Implementación de herencia múltiple, clases abstractas y mixins
-- Desarrollo de los decoradores `@decorador_interfaz`, `@manejar_errores` y `@validar_cedula`
-- Implementación del algoritmo Módulo 10 para validación de cédula ecuatoriana
-- Lógica de cálculo de descuentos por permisos remunerados y no remunerados
-- Uso de funciones de orden superior (`map`, `filter`, `reduce`) en estadísticas
-- Corrección de errores y validaciones (cédulas duplicadas, tipos de datos, etc.)
-
----
-
-### 🔵 Sesión 2 — Estudio y comprensión del código
-🔗 [https://claude.ai/share/aefb6b15-0247-472e-80d7-931eb45dcab0](https://claude.ai/share/aefb6b15-0247-472e-80d7-931eb45dcab0)
-
-Se utilizó para estudiar y entender a fondo cada componente del proyecto:
-- Recorrido por las capas del sistema (Models → Core → Controllers → View)
-- Explicación de conceptos POO aplicados: `@classmethod`, `@staticmethod`, ABC, Mixin, decoradores, inyección de dependencias
-- Repaso con preguntas de evaluación previo a la entrega
-- Corrección del flujo de validación de cédula en `EmpleadoController`
-- Generación del diagrama de arquitectura por capas
-
----
-
-### 🔵 Sesión 3 — Complemento al desarrollo del proyecto
-🔗 [https://claude.ai/share/8739d16d-94a8-4763-acca-79a6286ff2d5](https://claude.ai/share/8739d16d-94a8-4763-acca-79a6286ff2d5)
-
-Sesión complementaria utilizada durante la construcción del sistema:
-- Apoyo en la implementación de funcionalidades adicionales
-- Revisión y refinamiento de la lógica de negocio
-- Ajustes en la estructura del código y buenas prácticas POO
-
----
-
-### 🔵 Sesión 4 — Complemento al desarrollo del proyecto
-🔗 [https://claude.ai/share/a56cdadb-03c6-4eac-ba77-c0dc5c4f554c](https://claude.ai/share/a56cdadb-03c6-4eac-ba77-c0dc5c4f554c)
-
-Sesión complementaria utilizada durante la construcción del sistema:
-- Apoyo en la implementación de funcionalidades adicionales
-- Revisión y refinamiento de la lógica de negocio
-- Ajustes en la estructura del código y buenas prácticas POO
-
----
 
 <div align="center">
 
