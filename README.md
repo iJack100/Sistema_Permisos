@@ -63,7 +63,7 @@ python main.py
 ## 🗂️ Estructura del proyecto
 
 ```
-TAREA_POO_VERA/
+PRACT_PERMISOS/
 │
 ├── main.py                        # Punto de entrada del programa
 │
