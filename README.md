@@ -49,10 +49,10 @@ Sistema de gestión que permite administrar empleados, tipos de permisos y solic
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Josettz/Sistema-de-Gestion-de-Permisos-del-Personal.git
+git clone https://github.com/iJack100/Sistema_Permisos.git
 
 # Entrar a la carpeta del proyecto
-cd Sistema-de-Gestion-de-Permisos-del-Personal/TAREA_POO_VERA
+cd Sistema-de-Gestion-de-Permisos-del-Personal/PRACT_PERMISOS
 
 # Ejecutar el programa
 python main.py
